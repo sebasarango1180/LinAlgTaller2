@@ -53,3 +53,8 @@ end
 varianza_interior_2 = sum(d);
 
 varianza_global_2 = varianza_interior + sum_v;
+
+curtosis_norm = norm(curtosis - curtosis_2);
+asimetria_norm = norm(asimetria - asimetria_2);
+varianza_norm = norm(varianza - varianza_2);
+varianza_g_diff = abs(varianza_global - varianza_global_2);
